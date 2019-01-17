@@ -28,7 +28,7 @@ import com.microsoft.appcenter.crashes.Crashes;
             @Override
             public void onClick(View view) {
                 TextView tv = findViewById(R.id.welcome_message);
-                tv.setText("Welcome To Expresso");
+                tv.setText("Welcome To Expresso-hockey");
             }
         });
 
