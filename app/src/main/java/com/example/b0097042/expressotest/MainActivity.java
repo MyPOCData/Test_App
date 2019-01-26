@@ -13,6 +13,7 @@ import android.widget.TextView;
 import com.microsoft.appcenter.AppCenter;
 import com.microsoft.appcenter.analytics.Analytics;
 import com.microsoft.appcenter.crashes.Crashes;
+import com.microsoft.appcenter.push.Push;
 
     public class MainActivity extends AppCompatActivity {
 
@@ -32,7 +33,7 @@ import com.microsoft.appcenter.crashes.Crashes;
             }
         });
 
-        AppCenter.start(getApplication(), "52d9bbd1-a502-4b48-93cb-bc313975d984", Analytics.class, Crashes.class);
+        AppCenter.start(getApplication(), "52d9bbd1-a502-4b48-93cb-bc313975d984", Analytics.class, Crashes.class, Push.class);
     }
 
     @Override
