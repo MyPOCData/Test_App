@@ -29,11 +29,12 @@ import com.microsoft.appcenter.push.Push;
             @Override
             public void onClick(View view) {
                 TextView tv = findViewById(R.id.welcome_message);
-                tv.setText("Welcome To Expresso-hockey");
+                tv.setText("Welcome To Expresso-hockey!");
             }
         });
 
-        AppCenter.start(getApplication(), "52d9bbd1-a502-4b48-93cb-bc313975d984", Analytics.class, Crashes.class, Push.class);
+        //AppCenter.start(getApplication(), "52d9bbd1-a502-4b48-93cb-bc313975d984", Analytics.class, Crashes.class, Push.class);
+        AppCenter.start(getApplication(), "91dbbbcb-bcfe-446c-9f9f- 4b624ae08cc3", Push.class);
     }
 
     @Override
