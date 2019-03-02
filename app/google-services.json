@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "280265718576-fq44j3ue0vam9e6eald217kgrdl938pl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.b0097042.expressotest",
+            "certificate_hash": "087652cf1fe90d8f21b133bcaa1514728112976e"
+          }
+        },
+        {
           "client_id": "280265718576-6j942icvump0gkms57rg2mim7hkqmebl.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280265718576-6j942icvump0gkms57rg2mim7hkqmebl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
