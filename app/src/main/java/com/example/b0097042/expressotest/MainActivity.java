@@ -29,7 +29,7 @@ import com.microsoft.appcenter.push.Push;
             @Override
             public void onClick(View view) {
                 TextView tv = findViewById(R.id.welcome_message);
-                tv.setText("Hey Abhinav! Welcome To Expresso-hockey!");
+                tv.setText("Hi Abhinav! Welcome To Expresso-hockey...");
             }
         });
 
